@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+
+    <!--- style start here -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #body{
+            margin: 0 auto;
+            
+            max-width: 1000px;
+            background-color: rgb(217, 243, 243);
+            box-sizing: border-box;
+            box-shadow: 5px 5px 10px black;
+            border-radius: 10px;
+        }
+        #qoute{
+           font-size: 20px; 
+           background-color: antiquewhite ;
+           border-top: 5px solid red;
+           border-radius: 10px;
+           padding: 5px;
+        }
+        #qoute:hover{
+            color: rgb(107, 143, 241);
+        }
+        .head-var{
+            background-color: rgb(100, 157, 161);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+        }
+        .logo-des{ 
+            width: 150px;
+            height: 140px;
+            margin-left: 30px;
+            padding: 10px;
+        }
+        .logo-des:hover{
+            box-shadow: 2px 3px 6px white;
+        }
+        #eiin{ 
+            font-size: 20px;
+            padding: 3px;
+        }
+        .school-name{
+              font-size: 35px;
+              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: rgb(229, 234, 248);
+              font-weight: bolder;
+        }
+        .school-name:hover{
+            color: rgb(255, 255, 255);
+        }
+        .nav-bar{
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 10px;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 3px solid red;
+            border-top: 1px solid red;
+        
+        
+        }
+        .menu{
+            text-decoration: none;
+            margin: 20px;
+            padding: 5px;
+            font-size: 23px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .menu:hover{
+            background-color: rgba(77, 76, 76, 0.479);
+        }
+
+
+        /* main body style start here */
+        main{
+            background-color: antiquewhite;
+            border-bottom: 3px solid red;
+        }
+.grid{
+    border: 3px solid antiquewhite;
+    padding: 50px;
+    display: grid;
+    grid-template-rows:auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+.teacher1{
+    width: 300px;
+    height: 200px;
+}
+.div2 {
+    padding: 20px;
+    grid-column: 2/4;
+    
+}
+.div3{
+    padding: 20px;
+grid-column: 1/3;
+}
+.div6{
+    padding: 20px;
+    grid-column: 2/4;
+}
+.div7{
+    padding: 20px;
+    grid-column: 1/3;
+}
+.div10{
+    padding: 20px;
+    grid-column: 2/4;
+}
+.div11{
+    padding: 20px;
+    grid-column: 1/3;
+}
+.div14{
+    padding: 20px;
+    grid-column: 2/4;
+}
+.teacher1{
+    border-radius: 500px;
+    border-style:dotted;
+    border-color: rgb(100, 157, 161);
+}
+.body-head{
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+.about-teacher{
+    font-size: 20px;
+}
+.about-teacher:hover{
+    color: rgb(107, 143, 241);
+
+}
+ 
+
+
+        /* footer style start here*/
+footer{
+    background-color: black;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.footer-link{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}
+#copyright{
+    color: white;
+    text-align: center;
+     
+}
+/* footer style end here*/
+        
+        
+    </style>
+
+
+
+</head>
+<body>
+    <div class="full-body">
+            
+                <div id="body">
+                    <header>
+                        <div id="qoute"><h3>Make a man with well education...</h3></div>
+                            <div class="head-var" >
+                                <div class="logo"> <a href="#"><img class="logo-des" src="logo.png" alt="logo"></a></div>
+                                <div class="school-name"> <h1>Ogroni Model School</h1></div>
+                                <div><p id="eiin">EIIN: 303019573</p></div>
+                            </div>
+                        <div>
+                    </header>
+                    <!--- navbar end hare-->
+                    <nav class="nav-bar"> 
+                        <div><a href="home.html" class="menu">Home</a></div>
+                        <div><a href="Notice.html" class="menu">Notice</a></div>
+                        <div><a href="admission.html"class="menu">Admission</a></div>
+                        <div><a href="Images.html" class="menu">Images</a></div>
+                        <div><a href="Videos.html" class="menu">Videos</a></div>
+                        <div><a href="Contact.html" class="menu">Contacts</a></div>
+                
+                    </nav>
+                    <!--- navbar end hare-->
+
+                    <!--- main start here-->
+                    <main> 
+                        <div class="body-head"> <h3> Best of the Best</h3></div>
+
+                        <div class="grid">
+                            <div class="div1"><img class="teacher1" src="G:\Mr. At last\Projects\Ogroni Model School\images\teacher1.jpg" alt="teacher1"></div>
+                            <div class="div2"> 
+                                <h2>Mr. Mamun</h2>
+                                <p class="lecturer">Lecturer of Bnagla</p><br>
+                                <p class="about-teacher"> The its what cannot midnight by distant. Though enchanted that bird ancient something back door tis terrors, whispered shadows again chamber all to the fiery. The then shadow bird nodded lady stepped quoth lamplight uncertain, off what. The then lenore vainly its. Felt spoken fearing my devil of see into into that, one the the of lenore, sad mefilled came myself get the from, we rustling fowl muttered above startled above than your. Sat sent only chamber murmured flown mien. </p>
+                            </div>
+                            <div class="div3"> 
+                                <h2>Mr. Rabbi</h2>
+                                <p class="lecturer">Lecturer of English</p><br>
+                                <p class="about-teacher">The its what cannot midnight by distant. Though enchanted that bird ancient something back door tis terrors, whispered shadows again chamber all to the fiery. The then shadow bird nodded lady stepped quoth lamplight uncertain, off what. The then lenore vainly its. Felt spoken fearing my devil of see into into that, one the the of lenore, sad mefilled came myself get the from, we rustling fowl muttered above startled above than your. Sat sent only chamber murmured flown mien. </p>
+                            </div>
+                            <div class="div4"><img class="teacher1" src="G:\Mr. At last\Projects\Ogroni Model School\images\teacher2.jpg" alt="teacher1"></div>
+                            
+                            <div class="div5"><img class="teacher1" src="G:\Mr. At last\Projects\Ogroni Model School\images\teacher3.jpg" alt="teacher1"></div>
+                            <div class="div6"> 
+                                <h2>Khadija Akhter</h2>
+                                <p class="lecturer">Lecturer of History</p><br>
+                                <p class="about-teacher">The its what cannot midnight by distant. Though enchanted that bird ancient something back door tis terrors, whispered shadows again chamber all to the fiery. The then shadow bird nodded lady stepped quoth lamplight uncertain, off what. The then lenore vainly its. Felt spoken fearing my devil of see into into that, one the the of lenore, sad mefilled came myself get the from, we rustling fowl muttered above startled above than your. Sat sent only chamber murmured flown mien. </p>
+                            </div>
+                            <div class="div7"> 
+                                <h2>Mr. Nazrul</h2>
+                                <p class="lecturer">Lecturer of Statistics</p><br>
+                                <p class="about-teacher">The its what cannot midnight by distant. Though enchanted that bird ancient something back door tis terrors, whispered shadows again chamber all to the fiery. The then shadow bird nodded lady stepped quoth lamplight uncertain, off what. The then lenore vainly its. Felt spoken fearing my devil of see into into that, one the the of lenore, sad mefilled came myself get the from, we rustling fowl muttered above startled above than your. Sat sent only chamber murmured flown mien. </p>
+                            </div>
+                            <div class="div8"><img class="teacher1" src="G:\Mr. At last\Projects\Ogroni Model School\images\teacher4.jpg" alt="teacher1"></div>
+                            
+                            <div class="div9"><img class="teacher1" src="G:\Mr. At last\Projects\Ogroni Model School\images\teacher5.jpg" alt="teacher1"></div>
+                            <div class="div10" > 
+                                <h2>Mrs. Moyna </h2>
+                                <p class="lecturer">Lecturer of Islam</p><br>
+                                <p class="about-teacher">The its what cannot midnight by distant. Though enchanted that bird ancient something back door tis terrors, whispered shadows again chamber all to the fiery. The then shadow bird nodded lady stepped quoth lamplight uncertain, off what. The then lenore vainly its. Felt spoken fearing my devil of see into into that, one the the of lenore, sad mefilled came myself get the from, we rustling fowl muttered above startled above than your. Sat sent only chamber murmured flown mien. </p>
+                            </div>
+                            <div class="div11"> 
+                                <h2>Mr. Akhlas</h2>
+                                <p class="lecturer">Lecturer of Mathmetics</p><br>
+                                <p class="about-teacher">The its what cannot midnight by distant. Though enchanted that bird ancient something back door tis terrors, whispered shadows again chamber all to the fiery. The then shadow bird nodded lady stepped quoth lamplight uncertain, off what. The then lenore vainly its. Felt spoken fearing my devil of see into into that, one the the of lenore, sad mefilled came myself get the from, we rustling fowl muttered above startled above than your. Sat sent only chamber murmured flown mien. </p>
+                            </div>
+                            <div class="div12"><img class="teacher1" src="G:\Mr. At last\Projects\Ogroni Model School\images\teacher6.jpg" alt="teacher1"></div>
+                            
+                            <div class="div13"><img class="teacher1" src="G:\Mr. At last\Projects\Ogroni Model School\images\teacher7.jpg" alt="teacher1"></div>
+                            <div class="div14"> 
+                                <h2>Mrs. Rubi</h2>
+                                <p class="lecturer">Lecturer of Science</p><br>
+                                <p class="about-teacher">The its what cannot midnight by distant. Though enchanted that bird ancient something back door tis terrors, whispered shadows again chamber all to the fiery. The then shadow bird nodded lady stepped quoth lamplight uncertain, off what. The then lenore vainly its. Felt spoken fearing my devil of see into into that, one the the of lenore, sad mefilled came myself get the from, we rustling fowl muttered above startled above than your. Sat sent only chamber murmured flown mien. </p>
+                            </div>
+                        </div>
+
+                    </main>
+                    <!--- main start here-->
+
+
+                    <!--- footer start here-->
+                    <footer >
+                        <div class="footer-link">
+                            <div><a href="#" class="link">Facebook</a></div>
+                        <div><a href="#" class="link">Youtube</a></div>
+                        <div><a href="#" class="link">Instagram</a></div>
+                        <div><a href="#" class="link">Website</a></div>
+                        </div>
+                        <div id="copyright"><h3>&copy;Copyright Akhlas Uddin Antor 2024</h3></div>
+                    </footer>
+                    <!--- footer start here-->
+                </div>
+    </div>
+    
+</body>
+</html>

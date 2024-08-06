@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 1000px;
+            margin: 0 auto;
+            box-shadow: 5px 5px 10px black;
+            border-radius: 10px;
+        }
+        .box{
+            box-sizing: border-box;
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 3px solid red;
+        }
+        .main{
+             text-align: center;
+            padding: 100px;
+           margin: 50px;
+            width: 500px;
+            border-radius: 35px;
+            background-color: rgb(223, 194, 156);
+            box-shadow: 6px 5px 20px black;
+        }
+        .contact{
+            font-weight: bolder;
+            font-size: 30px;
+            text-align: center;
+        }
+        .head-d{
+            padding: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+        .element{
+            font-size: 20px;
+        }
+
+
+
+
+        
+        /* header start here */
+        #qoute{
+            font-size: 20px; 
+            background-color: antiquewhite ;
+            border-top: 5px solid red;
+            border-radius: 10px;
+            padding: 5px;
+         }
+         #qoute:hover{
+             color: rgb(107, 143, 241);
+         }
+         .head-var{
+             background-color: rgb(100, 157, 161);
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap; 
+         }
+         .logo-des{ 
+             width: 150px;
+             height: 140px;
+             margin-left: 30px;
+             padding: 10px;
+         }
+         .logo-des:hover{
+             box-shadow: 2px 3px 6px white;
+         }
+         #eiin{ 
+             font-size: 20px;
+             padding: 3px;
+         }
+         .school-name{
+               font-size: 35px;
+               font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               color: rgb(229, 234, 248);
+               font-weight: bolder;
+         }
+         .school-name:hover{
+             color: rgb(255, 255, 255);
+         }
+         .nav-bar{
+             background-color: antiquewhite;
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+             padding: 10px;
+             font-size: 20px;
+             justify-content: center;
+             align-items: center;
+             border-bottom: 3px solid red;
+             border-top: 1px solid red;
+         
+         
+         }
+         .menu{
+             text-decoration: none;
+             margin: 20px;
+             padding: 5px;
+             font-size: 23px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         
+         }
+         .menu:hover{
+             background-color: rgba(77, 76, 76, 0.479);
+         }
+         
+
+        /* footer start here */
+        footer{
+            background-color: black;
+            height: 100px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            
+        }
+        .footer-link{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            
+        }
+        #copyright{
+            color: white;
+            text-align: center;
+             
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <div id="qoute"><h3>Make a man with well education...</h3></div>
+            <div class="head-var" >
+                <div class="logo"> <a href="#"><img class="logo-des" src="logo.png" alt="logo"></a></div>
+                <div class="school-name"> <h1>Ogroni Model School</h1></div>
+                <div><p id="eiin">EIIN: 303019573</p></div>
+            </div>
+        <div>
+    </header>
+    
+    <nav class="nav-bar"> 
+        <div><a href="home.html" class="menu">Home</a></div>
+        <div><a href="information.html" class="menu">Information</a></div>
+        <div><a href="Notice.html" class="menu">Notice</a></div>
+        <div><a href="Teachers.html" class="menu">Teachers</a></div>
+        <div><a href="Images.html" class="menu">Images</a></div>
+        
+        
+
+    </nav>
+
+
+
+
+
+    <div class=" box"> 
+        <div class="main">
+            <h2 class="contact">Contacts</h2><br>
+            <h3><p class="head-d">Phone:</p><p class="element"> 01234567891</p></h3>
+            <div class="gmail"><p class="head-d">Gmail:</p><p class="element"> ogronimodelschool@gmail.com</p></div>
+            <div class="website"><p class="head-d">Website:</p><p class="element"> ogronimodelschool.com</p></div>
+            <div class="address">
+                <p class="head-d">Address:</p>
+                <address class="element">
+                Ponghagra(Chairmanbari Road),<br>
+                Sadar, Mymensingh,<br>
+                Bangladesh
+                </address>
+            </div>
+        </div>
+    </div>
+    <footer >
+        <div class="footer-link">
+            <div><a href="#" class="link">Facebook</a></div>
+        <div><a href="#" class="link">Youtube</a></div>
+        <div><a href="#" class="link">Instagram</a></div>
+        <div><a href="#" class="link">Website</a></div>
+        </div>
+        <div id="copyright"><h3>&copy;Copyright Akhlas Uddin Antor 2024</h3></div>
+        
+
+    </footer>
+
+</body>
+</html>
